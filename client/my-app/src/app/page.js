@@ -4,8 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div>
-      Welcome to the Recipe Management Application. 
-      Landing Page
+      Navbar
     </div>
   );
 }
