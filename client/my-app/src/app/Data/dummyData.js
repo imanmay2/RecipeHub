@@ -21,7 +21,7 @@ const dummyRecipes = [
     category: "Dessert",
     level: "Medium",
     time: 25,
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476f?ixlib=rb-4.0.3"
+    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061"
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const dummyRecipes = [
     category: "American",
     level: "Medium",
     time: 30,
-    image: "https://images.unsplash.com/photo-1512568400610-3f3f73b5d6bb?ixlib=rb-4.0.3"
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const dummyRecipes = [
     category: "Breakfast",
     level: "Easy",
     time: 20,
-    image: "https://images.unsplash.com/photo-1416514777329-6067f5d0e41e?ixlib=rb-4.0.3"
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1"
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ const dummyRecipes = [
     category: "Japanese",
     level: "Hard",
     time: 50,
-    image: "https://images.unsplash.com/photo-1617096700796-f499aa7aec69?ixlib=rb-4.0.3"
+    image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543"
   }
 ];
 
