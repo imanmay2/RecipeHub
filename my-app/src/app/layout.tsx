@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{margin:"1rem 2rem 1rem 2rem"}} className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body  className={`${geistSans.variable} ${geistMono.variable}`}>
         <Navbar/>
         <hr className="hr_rule"/>
         {children}

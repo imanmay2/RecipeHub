@@ -1,0 +1,13 @@
+.main{
+    margin: 1rem 3.5rem 1rem 3.5rem;
+}
+
+.tag{
+    color:white;
+    font-size:3rem;
+    font-weight:bolder;
+}
+.quote{
+    color:rgb(161, 159, 159);
+    font-size:1.2rem;
+}
