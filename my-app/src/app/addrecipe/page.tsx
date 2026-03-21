@@ -1,5 +1,9 @@
 "use client"
-
-export default async function addRecipe(){
-    
+import AddRecipe from "@/components/AddRecipe"
+export default function Page(){
+    return(
+        <div>
+            <AddRecipe/>
+        </div>
+    )
 }

@@ -1,0 +1,57 @@
+.main{
+    /* border:1px solid rgb(161, 159, 159); */
+    min-height: 30rem; /* Later change to fit-content*/
+    width: 70%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    margin:2rem auto;
+}
+
+.backToRecipe{
+    display:flex;
+    gap:0.5rem;
+    font-size:0.9rem;
+    align-items: center;
+    color:rgb(161, 159, 159);
+    transition : color 0.3s ease;
+}
+
+.backToRecipe:hover{
+    color: rgb(0, 200, 200);
+}
+
+.quote{
+    color:rgb(161, 159, 159);
+    font-size:1rem;
+    font-weight: 100;
+}
+
+.add{
+    font-size:2rem;
+    font-weight: bolder;
+}
+
+.info{
+    border:1px solid rgb(161, 159, 159);
+    border-radius:16px;
+    background-color:rgb(27, 26, 26);
+    min-height:20rem;  /* Later change to fit-content*/
+    display:flex;
+    flex-direction: column;
+    padding : 2rem;
+}
+
+.inp_{
+    height:2rem;
+    border:1px solid black;
+    font-size:1rem;
+    background-color:black;
+    border-radius: 16px;
+    outline:none;
+}
+
+inp_:focus-within{
+    border-color: rgb(0, 200, 200);
+}
