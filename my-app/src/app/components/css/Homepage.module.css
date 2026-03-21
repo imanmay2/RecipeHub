@@ -18,7 +18,7 @@
 }
 
 .search{
-    width:60%;
+    width:70%;
     height:10%;
     display: flex;
     gap:0.5rem;
@@ -32,10 +32,11 @@
 }
 
 .category{
-    width: 10%;
+    width: 12%;
 }
+
 .level{
-    width: 10%;
+    width: 11%;
 }
 
 .inp_{
@@ -45,4 +46,42 @@
     border-radius:20px;
     background-color: black;
     width:100%;
+}
+
+.btn_{
+    background-color: black;
+    border:none;
+    display:flex;
+    gap:0.5rem;
+    align-items:center;
+    font-size:1rem;
+}
+
+.category_Overlay{
+ 
+    position:fixed;
+    top:39%;
+    left:72%;
+    z-index:1000;
+}
+
+.modal{
+    width: 120%;
+    border-radius: 16px;
+    background-color:black;
+    color:white;
+    padding:0.8rem;
+    background: rgba(141, 132, 132, 0.3);
+    backdrop-filter: blur(10px); 
+}
+
+.list_categories{
+    margin:0.4rem;
+}
+
+.level_Overlay{
+    position:fixed;
+    top:39%;
+    left:82%;
+    z-index:1000;
 }
