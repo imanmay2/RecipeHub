@@ -11,3 +11,38 @@
     color:rgb(161, 159, 159);
     font-size:1.2rem;
 }
+
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    width:60%;
+    height:10%;
+    display: flex;
+    gap:0.5rem;
+    padding:1rem;
+    border-radius: 20px;
+    border:0.5px solid rgb(161, 159, 159); 
+}
+
+.search:focus-within{
+    border-color: rgb(0, 200, 200);
+}
+
+.category{
+    width: 10%;
+}
+.level{
+    width: 10%;
+}
+
+.inp_{
+    border:none;
+    font-size: 1rem;
+    outline: none;
+    border-radius:20px;
+    background-color: black;
+    width:100%;
+}
