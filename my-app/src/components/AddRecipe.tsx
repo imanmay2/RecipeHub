@@ -1,6 +1,6 @@
 "use client"
 import { ArrowLeft, Upload } from 'lucide-react';
-import styles from "./css/AddRecipe.module.css"
+import styles from "./css/AddRecipe.module.css";
 export default function AddRecipe() {
     return (
         <div className={styles.main}>

@@ -4,6 +4,8 @@ import { Search,SlidersHorizontal,BarChart3, Divide } from 'lucide-react'
 import styles from "./css/Homepage.module.css"
 import { useState } from 'react'
 
+
+
 export default function HomePage(){
     let [open1,setOpen1]=useState<boolean>(false);
     let [open2,setOpen2]=useState<boolean>(false);
@@ -12,6 +14,7 @@ export default function HomePage(){
     let [levels,setLevels]=useState<Array<string>>(["Easy","Medium","Difficult"]);
     return(
         <div className={styles.main}> <br />
+        {/* {isFavorite && <div>Welcome to Favorite Section</div>} */}
             <div className={styles.tag}>Discover Recipes</div><br />
             <div className={styles.quote}>Explore delicious recipes and create your own culinary masterpieces</div><br /><br /><br />
             

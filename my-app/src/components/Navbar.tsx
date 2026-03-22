@@ -1,7 +1,9 @@
 "use client"
 import styles from "./css/Navbar.module.css"
 import { ChefHat, Plus, Heart } from "lucide-react"
+import { useRouter } from "next/navigation"
 export default function Navbar() {
+    const router=useRouter();
     return (
         <div className={styles.main}>
             {/* Left Section */}
@@ -11,9 +13,9 @@ export default function Navbar() {
 
             {/* Right Nav */}
             <div className={styles.rightNav}>
-                <button className={styles.navItem}> <ChefHat/><div>Home</div></button>
-                <button className={styles.navItem}><Plus/><div>Add Recipe</div></button>
-                <button className={styles.navItem}><Heart/><div>Favorites</div></button>
+                <button className={styles.navItem} onClick={()=>router.push("/")}> <ChefHat/><div>Home</div></button>
+                <button className={styles.navItem}  onClick={()=>router.push("/addrecipe")}><Plus/><div>Add Recipe</div></button>
+                <button className={styles.navItem} onClick={()=>router.push("/favorites")}><Heart/><div>Favorites</div></button>
             </div>
         </div>
     )
