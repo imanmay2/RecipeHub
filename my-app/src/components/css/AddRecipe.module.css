@@ -1,57 +1,140 @@
-.main{
+.main {
     /* border:1px solid rgb(161, 159, 159); */
-    min-height: 30rem; /* Later change to fit-content*/
+    min-height: 30rem;
+    /* Later change to fit-content*/
     width: 70%;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    padding:2rem;
-    margin:2rem auto;
+    padding: 2rem;
+    margin: 2rem auto;
 }
 
-.backToRecipe{
-    display:flex;
-    gap:0.5rem;
-    font-size:0.9rem;
+.backToRecipe {
+    display: flex;
+    width: fit-content;
+    gap: 0.5rem;
+    font-size: 0.9rem;
     align-items: center;
-    color:rgb(161, 159, 159);
-    transition : color 0.3s ease;
+    color: rgb(161, 159, 159);
+    transition: color 0.3s ease;
 }
 
-.backToRecipe:hover{
+.backToRecipe:hover {
     color: rgb(0, 200, 200);
 }
 
-.quote{
-    color:rgb(161, 159, 159);
-    font-size:1rem;
+.quote {
+    color: rgb(161, 159, 159);
+    font-size: 1rem;
     font-weight: 100;
 }
 
-.add{
-    font-size:2rem;
+.add {
+    font-size: 2rem;
     font-weight: bolder;
 }
 
-.info{
-    border:1px solid rgb(161, 159, 159);
+.info {
+    border: 1px solid rgb(161, 159, 159);
+    border-radius: 16px;
+    background-color: rgb(27, 26, 26);
+    min-height: 20rem;
+    /* Later change to fit-content*/
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+
+.inp_ {
+    height: 3rem;
+    padding: 1rem;
+    border: 0.5px solid rgb(98, 98, 98);
+    /* keep this */
+    font-size: 1rem;
+    background-color: rgb(32, 31, 31);
+    border-radius: 16px;
+    outline: none;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+/* correct selector + correct pseudo-class */
+.inp_:focus {
+    border-color: rgb(0, 200, 200);
+    box-shadow: 0 0 5px rgba(0, 200, 200, 0.5);
+}
+
+.heading_1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.vertical_line {
+    background-color: rgb(0, 200, 200);
+    height: 2rem;
+    width: 0.5rem;
+    border-radius: 16px;
+}
+
+.size {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.category_difficulty {
+    display: flex;
+    gap: 2rem;
+    /* justify-content: space-between; */
+}
+
+.category {
+    background-color: rgb(32, 31, 31);
+    border: 0.5px solid rgb(98, 98, 98);
+    outline: none;
+    padding:1rem 0 1rem 0; 
+    font-size:1rem;
     border-radius:16px;
-    background-color:rgb(27, 26, 26);
-    min-height:20rem;  /* Later change to fit-content*/
+    width:26rem;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.category:focus-within{
+    border-color:rgb(0, 200, 200);
+    box-shadow: 0 0 5px rgba(0, 200, 200, 0.5);
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cooking_details{
+    display:column;
+
+}
+
+.recipe_image{
+    display:flex;
+    flex-direction:column;
+}
+
+.drop_image{
+    height:16rem;
+    border-radius:30px ;
+    width:55rem;
+    border:0.5px dotted grey;
     display:flex;
     flex-direction: column;
-    padding : 2rem;
+    justify-content: center;
+    align-items: center;
+    color:grey;
+    gap:0.8rem;
 }
 
-.inp_{
-    height:2rem;
-    border:1px solid black;
-    font-size:1rem;
-    background-color:black;
-    border-radius: 16px;
-    outline:none;
-}
-
-inp_:focus-within{
-    border-color: rgb(0, 200, 200);
+.small_size{
+    font-size:small;
 }
